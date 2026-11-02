@@ -1,0 +1,6 @@
+# Optional external feature pipelines. Their model weights are not distributed.
+# These optional packages were not exercised with pretrained checkpoints here.
+fair-esm==2.0.0
+unimol_tools
+rdkit
+

@@ -1,0 +1,26 @@
+# Synthetic SOFTWARE TEST ONLY, not a paper experiment.
+dataset:
+  name: TOY_SYNTHETIC
+  data_dir: data/toy
+model:
+  hidden_dim: 16
+  identity_dim: 4
+  layers: 1
+  intents: 2
+  intent_dim: 8
+  prototypes: 8
+  top_r: 3
+  dropout: 0.1
+train:
+  folds: 5
+  split_seed: 2026
+  seeds: [7]
+  epochs: 3
+  patience: 2
+  val_ratio: 0.2
+  device: cpu
+loss:
+  node_batch: 28
+augmentation:
+  negative_graphs: 2
+

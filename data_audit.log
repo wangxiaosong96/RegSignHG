@@ -1,0 +1,55 @@
+{
+  "provenance": {
+    "dataset_name": "TOY_SYNTHETIC",
+    "source_version": "synthetic_v1",
+    "source_files": [
+      "make_toy_data.py"
+    ],
+    "processing_description": "Random latent arrays and deterministic signed pairs for software validation only",
+    "synthetic": true
+  },
+  "drug_feature_metadata": {
+    "encoder": "synthetic",
+    "checkpoint": "none synthetic fixture",
+    "label_independent": true,
+    "generation_seed": 7,
+    "purpose": "software smoke test only"
+  },
+  "gene_feature_metadata": {
+    "encoder": "synthetic",
+    "checkpoint": "none synthetic fixture",
+    "label_independent": true,
+    "generation_seed": 7,
+    "purpose": "software smoke test only"
+  },
+  "counts": {
+    "drugs": 16,
+    "genes": 12,
+    "positive_edges": 80,
+    "negative_edges": 80,
+    "edges": 160
+  },
+  "files": {
+    "interactions.csv": {
+      "bytes": 3136,
+      "md5": "63b95c02193f6d7ed852e985df4380ba",
+      "sha256": "4d3ceb9ed5ec4d355559139ca19dfa3dce7c91a34f3b84aff1a2acb570111b69"
+    },
+    "drug_features.npz": {
+      "bytes": 1480,
+      "md5": "563bdd24915f08484eed8adcd8487d99",
+      "sha256": "a6530a57c53818f59cb79e97f329516ccc278b1266d801cceb5c84370c4057ce"
+    },
+    "gene_features.npz": {
+      "bytes": 1490,
+      "md5": "f4cc3923e0a3b36bc6e3a0032d8c8a43",
+      "sha256": "50c07fe0513f670add6638e926cdd6a4d54133d49f3d2209f5377f69f121874f"
+    },
+    "provenance.json": {
+      "bytes": 254,
+      "md5": "202fb71eaa1e43f435209681a4cd5cbf",
+      "sha256": "cd77414c42c829705573bdfe43ca235c6feb4629243fb3ff030633d6f3874f18"
+    }
+  }
+}
+

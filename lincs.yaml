@@ -1,0 +1,5 @@
+# EXAMPLE revision settings; LINCS must contain genuine perturbation-response records.
+dataset:
+  name: LINCS_L1000
+  data_dir: data/LINCS_L1000
+

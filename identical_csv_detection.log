@@ -1,0 +1,25 @@
+{
+  "files": [
+    {
+      "path": "data/toy/interactions.csv",
+      "sha256": "4d3ceb9ed5ec4d355559139ca19dfa3dce7c91a34f3b84aff1a2acb570111b69",
+      "md5": "63b95c02193f6d7ed852e985df4380ba"
+    },
+    {
+      "path": "data/toy/interactions.csv",
+      "sha256": "4d3ceb9ed5ec4d355559139ca19dfa3dce7c91a34f3b84aff1a2acb570111b69",
+      "md5": "63b95c02193f6d7ed852e985df4380ba"
+    }
+  ],
+  "comparisons": [
+    {
+      "left": "data/toy/interactions.csv",
+      "right": "data/toy/interactions.csv",
+      "byte_identical": true,
+      "same_signed_records": true,
+      "shared_signed_records": 160,
+      "note": "Entity strings must use canonical biological IDs; separately remapped integer IDs are not comparable"
+    }
+  ]
+}
+

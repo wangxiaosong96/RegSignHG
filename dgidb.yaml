@@ -1,0 +1,39 @@
+# EXAMPLE revision settings. These are NOT recovered manuscript settings.
+dataset:
+  name: DGIdb
+  data_dir: data/DGIdb
+model:
+  hidden_dim: 128
+  identity_dim: 32
+  layers: 1
+  intents: 4
+  intent_dim: 32
+  prototypes: 64
+  top_r: 8
+  dropout: 0.2
+train:
+  folds: 5
+  split_seed: 2026
+  seeds: [1, 2, 3]
+  val_ratio: 0.1
+  epochs: 200
+  patience: 20
+  lr: 0.001
+  weight_decay: 0.00001
+  grad_clip: 5.0
+  device: auto
+  threads: 1
+  threshold: 0.5
+loss:
+  node_weight: 0.1
+  graph_weight: 0.1
+  decor_weight: 0.001
+  node_tau: 0.2
+  graph_tau: 0.2
+  node_batch: 512
+augmentation:
+  edge_drop: 0.1
+  feature_mask: 0.1
+  negative_sign_flip: 0.5
+  negative_graphs: 2
+

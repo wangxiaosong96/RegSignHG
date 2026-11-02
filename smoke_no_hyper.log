@@ -1,0 +1,42 @@
+SYNTHETIC SMOKE TEST ONLY: no paper or biomedical performance claims
+seed=7 fold=1 epoch=2 AUC=0.628906
+seed=7 fold=2 epoch=2 AUC=0.253906
+seed=7 fold=3 epoch=3 AUC=0.507812
+seed=7 fold=4 epoch=1 AUC=0.425781
+seed=7 fold=5 epoch=2 AUC=0.453125
+{
+  "note": "Descriptive statistics only. Folds and seeds are not independent datasets; no significance claim is computed.",
+  "run_count": 5,
+  "per_seed": [
+    {
+      "seed": 7,
+      "AUC": {
+        "mean": 0.45390625,
+        "fold_sample_std": 0.13631077522120638
+      },
+      "AUPR": {
+        "mean": 0.5213376299712152,
+        "fold_sample_std": 0.08669962218284892
+      },
+      "Binary-F1": {
+        "mean": 0.4666666666666667,
+        "fold_sample_std": 0.2981423969999719
+      }
+    }
+  ],
+  "across_seed_means": {
+    "AUC": {
+      "mean": 0.45390625,
+      "sample_std_of_seed_means": null
+    },
+    "AUPR": {
+      "mean": 0.5213376299712152,
+      "sample_std_of_seed_means": null
+    },
+    "Binary-F1": {
+      "mean": 0.4666666666666667,
+      "sample_std_of_seed_means": null
+    }
+  }
+}
+

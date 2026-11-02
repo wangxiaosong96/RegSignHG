@@ -1,0 +1,222 @@
+{
+  "algorithm": "SHA256",
+  "note": "Checksums cover bundle files except this manifest itself",
+  "files": {
+    ".gitignore": {
+      "bytes": 68,
+      "sha256": "fed060d5fed395705c7bb52e8f369547ecba59e684407516709a84cdef5de352"
+    },
+    "README.md": {
+      "bytes": 10188,
+      "sha256": "a581cc999653ac7743c89e889b8ebca0de46999e511bd22a558e8a58eac555e4"
+    },
+    "START_HERE_CN.md": {
+      "bytes": 5032,
+      "sha256": "98c7a8ed472e93103c4240a2d846526e7b3d7d372dae071e3da71ef29e178760"
+    },
+    "VERIFICATION_CN.md": {
+      "bytes": 1513,
+      "sha256": "d5ff1142a1c5b3dbc4ec6bb4a444abdab74cac957aea41e8f3acf76735a88977"
+    },
+    "configs/dgidb.yaml": {
+      "bytes": 666,
+      "sha256": "9faf768b04a94a1c8ecafb529f0c147d5f81326e6883705d1dfc43c04c8c34a7"
+    },
+    "configs/drugbank.yaml": {
+      "bytes": 130,
+      "sha256": "56c4926204d5a3c828560420eb5cdbb35047725284750eb83051fcaf2b6d6c75"
+    },
+    "configs/lincs.yaml": {
+      "bytes": 146,
+      "sha256": "2ccbd408531f55816ddb77e41a55f8d13b145c6b29d82effed87a930d5273a0e"
+    },
+    "configs/smoke.yaml": {
+      "bytes": 399,
+      "sha256": "71b319e178be0e47e388a3a4ce444d909d7388b12da805ea85386a78d16970b0"
+    },
+    "data/README.md": {
+      "bytes": 2885,
+      "sha256": "95ddf0e71852e32872f049d6f13cbd1360f9d67bed7475b02e9e70a809f37990"
+    },
+    "docs/METHOD_CODE_MAP.md": {
+      "bytes": 4952,
+      "sha256": "c0d99ab173292b9495213363e8335ae7e4e186322e06ee30f9ad9fe9ef79948c"
+    },
+    "docs/MIGRATION_CN.md": {
+      "bytes": 1736,
+      "sha256": "3d98f962d5e608cb46532d5500490084a529a492fcb56890a910c534463d18b5"
+    },
+    "docs/OLD_CODE_AUDIT_CN.md": {
+      "bytes": 3968,
+      "sha256": "b3f0672608e435f572eb4bc61c6f92bd00c4c6e167ccd8fb2f82beea5953a5ae"
+    },
+    "docs/RESPONSE_TEMPLATE_CN.md": {
+      "bytes": 2294,
+      "sha256": "82933c25faa51dbe12f5dbbe312283c61b4d1b0e6e34e7176ba4a24f5513cb1d"
+    },
+    "environment.yml": {
+      "bytes": 127,
+      "sha256": "a86f9324dee4a424721cc94d0ac4ebbb9c8f1f6c8d7439f0807b0523e89bee9c"
+    },
+    "evaluate.py": {
+      "bytes": 652,
+      "sha256": "078f120ab356cc8246eb280158aadf2dd895b4ec4ac1dccc5dc99b64c1c8c07d"
+    },
+    "predict.py": {
+      "bytes": 1828,
+      "sha256": "b94649db7856923699834737db37cbb674bd618ca8cdd9870495fa79d00c0ca4"
+    },
+    "regsignhg/__init__.py": {
+      "bytes": 117,
+      "sha256": "49cc022449dd57b0150731a7fb2778895ba02b6742250319efe2effb480d6e71"
+    },
+    "regsignhg/config.py": {
+      "bytes": 4064,
+      "sha256": "61f0b6896d184a634377f87afe7ccbd3b1868226b98f93815fc9881854b83ebb"
+    },
+    "regsignhg/data.py": {
+      "bytes": 5806,
+      "sha256": "14500b2dfb75bf5c1ca622be114dc895fdd84675f325ef88014f2ca1c0c143cf"
+    },
+    "regsignhg/engine.py": {
+      "bytes": 12651,
+      "sha256": "67e065bcc5efcc0b9847e2aeb8054c2d6fb57896d32f932240140c9345bad7ed"
+    },
+    "regsignhg/losses.py": {
+      "bytes": 2751,
+      "sha256": "0be35b16d9cc19a76d6b583360a185f1cbaddad1c9b0425e9de888a9686eaefa"
+    },
+    "regsignhg/metrics.py": {
+      "bytes": 710,
+      "sha256": "21409d4da0ba0dc24c6213e9129c25b60155a61eaf20f500970e94bc089ac56c"
+    },
+    "regsignhg/model.py": {
+      "bytes": 5939,
+      "sha256": "aeb956f1c9b33d6ff9a4ad23b05810129c2d01a7b7c585f1b2b37b6e46acf675"
+    },
+    "requirements-features.txt": {
+      "bytes": 195,
+      "sha256": "95ba1f4a493b0fc2578287714263f7b36c94f1867f29f83e1091a308c4763b63"
+    },
+    "requirements.txt": {
+      "bytes": 61,
+      "sha256": "e751af930d5e01b1a004ac6dc9402eae0224d5870333cb1903d6d2bf900e515b"
+    },
+    "scripts/audit_data.py": {
+      "bytes": 1380,
+      "sha256": "f90e81bac3d9b1b1382498e9771cd93e539954dab90ae057702a562e1bbc9dcb"
+    },
+    "scripts/compare_datasets.py": {
+      "bytes": 1526,
+      "sha256": "93448d00559e422c5a8e4a2f7ced675cff74122b477cd012ffca69099e9ba32b"
+    },
+    "scripts/export_hypergraphs.py": {
+      "bytes": 1473,
+      "sha256": "92057b1a85f4a4c86d8b91dd772da38322876ceb40833eecc667a734a4146d04"
+    },
+    "scripts/extract_esm2.py": {
+      "bytes": 3261,
+      "sha256": "1068397aa8a243de9e31c9ab4da67b533ae372344122c4395f939bc87f39d718"
+    },
+    "scripts/extract_unimol.py": {
+      "bytes": 3390,
+      "sha256": "7bda603240947c7db45f836a670071a418a78c4d73d46d8d616790e157ecddbf"
+    },
+    "scripts/import_features.py": {
+      "bytes": 1489,
+      "sha256": "0c58640f2237ab7cc5d1c2a026bf75d09ef832380f90d24061881bd6be15eb3d"
+    },
+    "scripts/make_toy_data.py": {
+      "bytes": 2134,
+      "sha256": "085dd9f6413e85f68001684c6a5d8ce1eb20f4b323d4fed9650e968e0dfea26e"
+    },
+    "tests/test_revision.py": {
+      "bytes": 7946,
+      "sha256": "99be0fbc5ebcb7da46202b0579aa586b15b5df66407914f4b49b58038afa749b"
+    },
+    "train.py": {
+      "bytes": 1008,
+      "sha256": "e6daebf899034a231292faf8f0162007534f32742aa7c9d5e54cc97e5e2e709b"
+    },
+    "verification/all_fold_checkpoint_consistency.log": {
+      "bytes": 53,
+      "sha256": "c851b4b3676dd6613885b803d4ca19bddf4a47956253a26b69d9f75dc8ce3eea"
+    },
+    "verification/candidate_prediction.log": {
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "verification/checkpoint_evaluation.log": {
+      "bytes": 75,
+      "sha256": "294eff1e3aa222e8863ad7dde8acdfbc4a74dd54380bda4d7830ce03d88a48d3"
+    },
+    "verification/compile_all_sources.log": {
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "verification/create_query_fixture.log": {
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "verification/create_synthetic_fixture.log": {
+      "bytes": 10,
+      "sha256": "4925d634e260306a867510e28e61cb52cd911b442117fe262cd67d47b616952b"
+    },
+    "verification/data_audit.log": {
+      "bytes": 1585,
+      "sha256": "8c2e6a8fc77995511a611c19dfe442d5356968a9b24006873f3e7130f30ebd6e"
+    },
+    "verification/five_fold_training.log": {
+      "bytes": 1068,
+      "sha256": "46c90779e2c336997b124801703acb0605cd7fe6261f92855f86fcea9a59bdb7"
+    },
+    "verification/hypergraph_export.log": {
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "verification/identical_csv_detection.log": {
+      "bytes": 738,
+      "sha256": "438fefd9e1f13236dc603ff815af9e08809b4e790b750050a81d2a001f8b18f3"
+    },
+    "verification/isolated_environment.log": {
+      "bytes": 238,
+      "sha256": "fb0223463260e1db435f3ce7d55fd607f5741f841289ccc86adf313978e2e75f"
+    },
+    "verification/legacy_loss_invariance_demonstration.log": {
+      "bytes": 151,
+      "sha256": "e166d6268cda165d642047587b40426521b6957623b6448b9c921ad44f8035f1"
+    },
+    "verification/requirements-clean-cpu.txt": {
+      "bytes": 284,
+      "sha256": "b98d65a4e6630abc149bcf9d589084e03afa8270c6144d08694ee24a72b5b078"
+    },
+    "verification/smoke_no_aug.log": {
+      "bytes": 1067,
+      "sha256": "695eb104c825ba4d24b8594b9b49bda5f7c5270be3795ab9e6cf30cb44851323"
+    },
+    "verification/smoke_no_graphcl.log": {
+      "bytes": 1068,
+      "sha256": "6fa4a2b7eff2bca56590863cccaa35a724855f238682dececd98a940cee0d8e6"
+    },
+    "verification/smoke_no_hyper.log": {
+      "bytes": 1064,
+      "sha256": "d7898294c5ceac8fa5b5fdaf03a407baad6027047ffed6888b3cdfafbb78d06e"
+    },
+    "verification/smoke_no_intent.log": {
+      "bytes": 1034,
+      "sha256": "7694d87e93b05604b08979f7637c799dc290481d50b51efc389f887ea1e8d70a"
+    },
+    "verification/smoke_no_nodecl.log": {
+      "bytes": 1068,
+      "sha256": "fd1c2b3085856ad3e52cd75698a8193709b6ccfd5ea87c296419664cfc031ded"
+    },
+    "verification/unit_tests.log": {
+      "bytes": 1812,
+      "sha256": "537bd3514fa822e09ac931060e5a87fa3506fde6cf9c05e37be515da3909ed72"
+    },
+    "verification/verification.json": {
+      "bytes": 9813,
+      "sha256": "34527351cfcae4398ddf1e2bfbaf5c4737dab536fcecd5d27b70329117557097"
+    }
+  }
+}

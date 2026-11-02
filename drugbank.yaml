@@ -1,0 +1,5 @@
+# EXAMPLE revision settings; unspecified fields inherit documented defaults.
+dataset:
+  name: DrugBank
+  data_dir: data/DrugBank
+

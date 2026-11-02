@@ -1,0 +1,2 @@
+{"python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]", "prefix": "/workspace/scratch/28ff0ce360de/tmp/regsignhg-clean-venv", "torch": "2.5.1+cpu", "numpy": "2.3.5", "scikit_learn": "1.8.0", "PyYAML": "6.0.3", "cuda": false}
+
