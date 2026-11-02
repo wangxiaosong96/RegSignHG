@@ -7,7 +7,6 @@ It is **not a recovered snapshot of the code that produced the submitted
 paper**, and it does not establish that any published table has been reproduced.
 The included configuration values are examples, not verified original settings.
 
-Chinese instructions: [START_HERE_CN.md](START_HERE_CN.md).
 
 ## Installation
 
